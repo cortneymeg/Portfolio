@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,600|Josefin+Sans:400,300,100);
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono|Roboto+Slab:400,100,300,700);
+
+html, body {
+    		height: 100%;
+    		margin: 0;
+    	}
+#main-nav{
+font-family: 'Roboto Slab', serif;
+text-transform: uppercase;
+font-weight: 200;
+color: #EAB010;
+}
+
+.nav-tabs.nav-justified>li>a {
+  border-bottom:none;
+  border: 1px transparent;
+  letter-spacing:2px;
+  transition-property: all;
+  transition-duration: .5s;
+  border-radius: 0;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+color:#EAB010;
+letter-spacing:7px;
+background-color:transparent;
+}
